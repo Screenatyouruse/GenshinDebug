@@ -1,0 +1,19 @@
+# Python cache & logs
+__pycache__/
+*.py[cod]
+*$py.class
+*.log
+
+# Large match recordings (keep folder, ignore 90MB files)
+m2/replays/*.mreplay
+m2/replays/*.bak
+!m2/replays/.gitkeep
+
+# Temporary diagnostics & logs
+m2/logs/*
+!m2/logs/.gitkeep
+m2/wireless.json
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db

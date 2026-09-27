@@ -1,0 +1,803 @@
+{
+ "generated": "2026-09-18T19:21:04.802Z",
+ "package": "com.mobile.legends",
+ "note": "offsets are relative: statics -> staticFieldsData block; instance -> object + 0x10 header",
+ "il2cpp": {
+  "objectHeader": 16,
+  "arrayDataOffset": 32,
+  "stringLength": 16,
+  "stringChars": 20,
+  "staticFieldsOff": 168,
+  "staticFieldsFrom": "BattleManager"
+ },
+ "list": {
+  "items": 16,
+  "size": 24
+ },
+ "dictionary": {
+  "entries": 24,
+  "count": 32,
+  "entryKey": 24,
+  "entryValue": 32,
+  "entryStride": 24
+ },
+ "classes": {
+  "BattleData": {
+   "fields": {},
+   "statics": {
+    "m_BattleBridge": {
+     "offset": 0,
+     "type": "BattleBridge",
+     "isStatic": true,
+     "runtimeAddr": "0x6f5530aba0"
+    }
+   },
+   "staticFieldsData": "0x6f5530aba0",
+   "klassHandle": "0xb400006dfaea7298",
+   "klassStaticOff": "0x4c0000015a463908"
+  },
+  "BattleBridge": {
+   "fields": {},
+   "statics": {},
+   "staticFieldsData": "0x6f55309690",
+   "klassHandle": "0xb400006dd004a840",
+   "klassStaticOff": "0x4c000001852bee50"
+  },
+  "BattleManager": {
+   "fields": {
+    "m_LocalPlayerShow": {
+     "offset": 72,
+     "type": "ShowPlayer",
+     "isStatic": false
+    },
+    "m_dicPlayerShow": {
+     "offset": 96,
+     "type": "System.Collections.Generic.Dictionary<System.UInt32,ShowEntity>",
+     "isStatic": false
+    },
+    "m_dicMonsterShow": {
+     "offset": 104,
+     "type": "System.Collections.Generic.Dictionary<System.UInt32,ShowEntity>",
+     "isStatic": false
+    },
+    "m_ShowPlayers": {
+     "offset": 112,
+     "type": "System.Collections.Generic.List<ShowEntity>",
+     "isStatic": false
+    },
+    "m_ShowMonsters": {
+     "offset": 120,
+     "type": "System.Collections.Generic.List<ShowEntity>",
+     "isStatic": false
+    },
+    "m_MainTowerDead": {
+     "offset": 128,
+     "type": "System.Boolean",
+     "isStatic": false
+    }
+   },
+   "statics": {
+    "Instance": {
+     "offset": 0,
+     "type": "BattleManager",
+     "isStatic": true,
+     "runtimeAddr": "0x6f5530cc40"
+    }
+   },
+   "staticFieldsData": "0x6f5530cc40",
+   "klassHandle": "0xb400006dd0e47440",
+   "klassStaticOff": "0x4c000001844c5800"
+  },
+  "ShowEntity": {
+   "fields": {
+    "m_bDeath": {
+     "offset": 197,
+     "type": "System.Boolean",
+     "isStatic": false
+    },
+    "m_EntityCampType": {
+     "offset": 208,
+     "type": "EntityCampType",
+     "isStatic": false
+    },
+    "m_OwnSkillComp": {
+     "offset": 264,
+     "type": "Battle.ShowOwnSkillComp",
+     "isStatic": false
+    },
+    "m_uGuid": {
+     "offset": 392,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "m_ID": {
+     "offset": 396,
+     "type": "System.Int32",
+     "isStatic": false
+    },
+    "m_Hp": {
+     "offset": 420,
+     "type": "System.Int32",
+     "isStatic": false
+    },
+    "m_HpMax": {
+     "offset": 424,
+     "type": "System.Int32",
+     "isStatic": false
+    },
+    "m_vCachePosition": {
+     "offset": 652,
+     "type": "UnityEngine.Vector3",
+     "isStatic": false
+    },
+    "m_bUnityMinimapVisible": {
+     "offset": 679,
+     "type": "System.Boolean",
+     "isStatic": false
+    },
+    "m_bSameCampType": {
+     "offset": 681,
+     "type": "System.Boolean",
+     "isStatic": false
+    },
+    "canSight": {
+     "offset": 842,
+     "type": "System.Boolean",
+     "isStatic": false
+    },
+    "m_HeadIconDefault": {
+     "offset": 912,
+     "type": "System.String",
+     "isStatic": false
+    },
+    "_logicFighter": {
+     "offset": 960,
+     "type": "ILogicFighter",
+     "isStatic": false
+    },
+    "m_RoleName": {
+     "offset": 1120,
+     "type": "System.String",
+     "isStatic": false
+    },
+    "_MoveDir": {
+     "offset": 716,
+     "type": "UnityEngine.Vector3",
+     "isStatic": false
+    },
+    "m_dMoveSpeed": {
+     "offset": 552,
+     "type": "System.Double",
+     "isStatic": false
+    },
+    "m_iGrassId": {
+     "offset": 384,
+     "type": "System.Int32",
+     "isStatic": false
+    },
+    "_iSkillInvisibility": {
+     "offset": 644,
+     "type": "System.Int32",
+     "isStatic": false
+    },
+    "m_Level": {
+     "offset": 400,
+     "type": "System.Int32",
+     "isStatic": false
+    },
+    "m_Mp": {
+     "offset": 480,
+     "type": "System.Int32",
+     "isStatic": false
+    },
+    "_MpMax": {
+     "offset": 484,
+     "type": "System.Int32",
+     "isStatic": false
+    },
+    "CurrentAnimName": {
+     "offset": 80,
+     "type": "System.String",
+     "isStatic": false
+    }
+   },
+   "statics": {},
+   "staticFieldsData": "0x6f55312c60",
+   "klassHandle": "0xb400006dfae94120",
+   "klassStaticOff": "0x4c0000015a47eb40"
+  },
+  "ShowPlayer": {
+   "fields": {
+    "m_HeroName": {
+     "offset": 2288,
+     "type": "System.String",
+     "isStatic": false
+    },
+    "m_iSummonSkillId": {
+     "offset": 2436,
+     "type": "System.Int32",
+     "isStatic": false
+    },
+    "m_bInBattle": {
+     "offset": 2472,
+     "type": "System.Boolean",
+     "isStatic": false
+    },
+    "_iTotalGold": {
+     "offset": 2556,
+     "type": "System.Int32",
+     "isStatic": false
+    }
+   },
+   "statics": {},
+   "staticFieldsData": "0x6f55336e60",
+   "klassHandle": "0xb400006dfae93990",
+   "klassStaticOff": "0x4c0000015a4a34d0"
+  },
+  "ShowOwnSkillComp": {
+   "fields": {
+    "m_SkillList": {
+     "offset": 16,
+     "type": "System.Collections.Generic.List<ShowSkillData>",
+     "isStatic": false
+    },
+    "skillUseTypeList": {
+     "offset": 24,
+     "type": "System.Collections.Generic.Dictionary<System.Int32,System.Collections.Generic.List<System.Int32>>",
+     "isStatic": false
+    }
+   },
+   "statics": {},
+   "staticFieldsData": "0x6de20c2230",
+   "klassHandle": "0xb400006d2f597fe0",
+   "klassStaticOff": "0x4c000000b2b2a250"
+  },
+  "Battle.ShowOwnSkillComp": {
+   "fields": {
+    "m_SkillList": {
+     "offset": 16,
+     "type": "System.Collections.Generic.List<ShowSkillData>",
+     "isStatic": false
+    },
+    "skillUseTypeList": {
+     "offset": 24,
+     "type": "System.Collections.Generic.Dictionary<System.Int32,System.Collections.Generic.List<System.Int32>>",
+     "isStatic": false
+    }
+   },
+   "statics": {},
+   "staticFieldsData": "0x6de20c2230",
+   "klassHandle": "0xb400006d2f597fe0",
+   "klassStaticOff": "0x4c000000b2b2a250"
+  },
+  "ShowSkillData": {
+   "fields": {
+    "m_TranID": {
+     "offset": 136,
+     "type": "System.Int32",
+     "isStatic": false
+    }
+   },
+   "statics": {},
+   "staticFieldsData": "0x0",
+   "klassHandle": "0xb400006e017e2658",
+   "klassStaticOff": "0x4bffff91fe81d9a8"
+  },
+  "Battle.ShowSkillData": {
+   "fields": {
+    "m_TranID": {
+     "offset": 136,
+     "type": "System.Int32",
+     "isStatic": false
+    }
+   },
+   "statics": {},
+   "staticFieldsData": "0x0",
+   "klassHandle": "0xb400006e017e2658",
+   "klassStaticOff": "0x4bffff91fe81d9a8"
+  },
+  "Battle.LogicFighter": {
+   "fields": {
+    "m_SkillComp": {
+     "offset": 1264,
+     "type": "Battle.LogicSkillComp",
+     "isStatic": false
+    }
+   },
+   "statics": {},
+   "staticFieldsData": "0x6f55336e80",
+   "klassHandle": "0xb400006d2f8b3c40",
+   "klassStaticOff": "0x4c00000225a83240"
+  },
+  "Battle.LogicSkillComp": {
+   "fields": {
+    "m_CoolDownComp": {
+     "offset": 176,
+     "type": "Battle.CoolDownComp",
+     "isStatic": false
+    }
+   },
+   "statics": {},
+   "staticFieldsData": "0x6de20c2000",
+   "klassHandle": "0xb400006e0186f970",
+   "klassStaticOff": "0x4bffffffe0852690"
+  },
+  "Battle.CoolDownComp": {
+   "fields": {
+    "m_DicCoolInfo": {
+     "offset": 24,
+     "type": "System.Collections.Generic.Dictionary<System.Int32,Battle.CoolDownData>",
+     "isStatic": false
+    }
+   },
+   "statics": {},
+   "staticFieldsData": "0x6f5533fa00",
+   "klassHandle": "0xb400006e01892920",
+   "klassStaticOff": "0x4c00000153aad0e0"
+  },
+  "LogicBattleManager": {
+   "fields": {},
+   "statics": {},
+   "staticFieldsData": "0x6f5532cc80",
+   "klassHandle": "0xb400006dd0e66de0",
+   "klassStaticOff": "0x4c000001844c5ea0"
+  },
+  "Battle.LogicBattleManager": {
+   "fields": {
+    "m_dicPlayerLogic": {
+     "offset": 72,
+     "type": "System.Collections.Generic.Dictionary<System.UInt32,Battle.LogicFighter>",
+     "isStatic": false
+    },
+    "m_dicMonsterLogic": {
+     "offset": 80,
+     "type": "System.Collections.Generic.Dictionary<System.UInt32,Battle.LogicFighter>",
+     "isStatic": false
+    },
+    "m_uiRecvNetFrameTime": {
+     "offset": 308,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "m_uiFrameTime": {
+     "offset": 316,
+     "type": "System.UInt32",
+     "isStatic": false
+    }
+   },
+   "statics": {
+    "Instance": {
+     "offset": 16,
+     "type": "LogicBattleManager",
+     "isStatic": true,
+     "runtimeAddr": "0x6f5532cc90"
+    }
+   },
+   "staticFieldsData": "0x6f5532cc80",
+   "klassHandle": "0xb400006dd0e66de0",
+   "klassStaticOff": "0x4c000001844c5ea0"
+  },
+  "Battle.CoolDownData": {
+   "fields": {
+    "iSpellID": {
+     "offset": 16,
+     "type": "System.Int32",
+     "isStatic": false
+    },
+    "uiCoolTime": {
+     "offset": 20,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "originalMaxCdTime": {
+     "offset": 24,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "uiStartTime": {
+     "offset": 28,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "m_isCoolDown": {
+     "offset": 32,
+     "type": "System.Boolean",
+     "isStatic": false
+    }
+   },
+   "statics": {},
+   "staticFieldsData": "0x0",
+   "klassHandle": "0xb400006e018a0de8",
+   "klassStaticOff": "0x4bffff91fe75f218"
+  },
+  "EntityBase": {
+   "fields": {},
+   "statics": {},
+   "staticFieldsData": "0x6de20c2460",
+   "klassHandle": "0xb400006d2f8b4fc8",
+   "klassStaticOff": "0x4c000000b280d498"
+  },
+  "SmoothFollow": {
+   "fields": {
+    "m_MainCamera": {
+     "offset": 72,
+     "type": "UnityEngine.Camera",
+     "isStatic": false
+    },
+    "m_rotation": {
+     "offset": 124,
+     "type": "UnityEngine.Quaternion",
+     "isStatic": false
+    },
+    "__offSetPos": {
+     "offset": 140,
+     "type": "UnityEngine.Vector3",
+     "isStatic": false
+    },
+    "m_CameraCurrentPos": {
+     "offset": 484,
+     "type": "UnityEngine.Vector3",
+     "isStatic": false
+    }
+   },
+   "statics": {},
+   "staticFieldsData": "0x6f5533f6e0",
+   "klassHandle": "0xb400006e017b5560",
+   "klassStaticOff": "0x4c00000153b8a180"
+  },
+  "GameMethod": {
+   "fields": {},
+   "statics": {},
+   "staticFieldsData": "0x6de20c2820",
+   "klassHandle": "0xb400006dd034dff0",
+   "klassStaticOff": "0x4c00000011d74830"
+  },
+  "Friends.RoomDataManager": {
+   "fields": {
+    "_players": {
+     "offset": 16,
+     "type": "System.Collections.Generic.Dictionary<System.UInt64,MTTDProto.RoomPlayerInfo>",
+     "isStatic": false
+    }
+   },
+   "statics": {
+    "_instance": {
+     "offset": 0,
+     "type": "Friends.RoomDataManager",
+     "isStatic": true,
+     "runtimeAddr": "0x6f5533a630"
+    }
+   },
+   "staticFieldsData": "0x6f5533a630",
+   "klassHandle": "0xb400006decdf5280",
+   "klassStaticOff": "0x4c000001685453b0"
+  },
+  "MTTDProto.RoomPlayerInfo": {
+   "fields": {
+    "ulUid": {
+     "offset": 16,
+     "type": "System.UInt64",
+     "isStatic": false
+    },
+    "uiSvrId": {
+     "offset": 24,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "strName": {
+     "offset": 32,
+     "type": "System.String",
+     "isStatic": false
+    },
+    "uiNationality": {
+     "offset": 48,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "uiRankLevel": {
+     "offset": 52,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "uiRankLevelBig": {
+     "offset": 56,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "stBase": {
+     "offset": 72,
+     "type": "MTTDProto.PlayerBaseInfo",
+     "isStatic": false
+    },
+    "sBattleCountry": {
+     "offset": 120,
+     "type": "System.String",
+     "isStatic": false
+    },
+    "bIsOnLine": {
+     "offset": 144,
+     "type": "System.Boolean",
+     "isStatic": false
+    },
+    "bIsReady": {
+     "offset": 145,
+     "type": "System.Boolean",
+     "isStatic": false
+    },
+    "iActCamp": {
+     "offset": 160,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "iRoad": {
+     "offset": 252,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "vWantSelectHero": {
+     "offset": 304,
+     "type": "System.Collections.Generic.List<System.UInt32>",
+     "isStatic": false
+    }
+   },
+   "statics": {},
+   "staticFieldsData": "0x0",
+   "klassHandle": "0xb400006decdf84d0",
+   "klassStaticOff": "0x4bffff9213207b30"
+  },
+  "MTTDProto.PlayerBaseInfo": {
+   "fields": {
+    "iPVPVictoryScore": {
+     "offset": 128,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "iPVPVictoryTimes": {
+     "offset": 132,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "mHeroMMR": {
+     "offset": 136,
+     "type": "System.Collections.Generic.Dictionary<System.UInt32,System.UInt32>",
+     "isStatic": false
+    }
+   },
+   "statics": {},
+   "staticFieldsData": "0x0",
+   "klassHandle": "0xb400006decf124f8",
+   "klassStaticOff": "0x4bffff92130edb08"
+  },
+  "ShowBattleCamera": {
+   "fields": {},
+   "statics": {
+    "Instance": {
+     "offset": 0,
+     "type": "ShowBattleCamera",
+     "isStatic": true,
+     "runtimeAddr": "0x6de20cab60"
+    },
+    "m_CamPos": {
+     "offset": 16,
+     "type": "UnityEngine.Vector3",
+     "isStatic": true,
+     "runtimeAddr": "0x6de20cab70"
+    },
+    "m_CamRot": {
+     "offset": 88,
+     "type": "UnityEngine.Quaternion",
+     "isStatic": true,
+     "runtimeAddr": "0x6de20cabb8"
+    },
+    "m_iFieldOfView": {
+     "offset": 140,
+     "type": "System.Int32",
+     "isStatic": true,
+     "runtimeAddr": "0x6de20cabec"
+    },
+    "m_cameraDepth": {
+     "offset": 164,
+     "type": "System.Single",
+     "isStatic": true,
+     "runtimeAddr": "0x6de20cac04"
+    }
+   },
+   "staticFieldsData": "0x6de20cab60",
+   "klassHandle": "0xb400006d2f7dc040",
+   "klassStaticOff": "0x4c000000b28eeb20"
+  },
+  "ChooseHeroMgr": {
+   "fields": {
+    "m_SelfCampHeroInfoList": {
+     "offset": 880,
+     "type": "System.Collections.Generic.List<SystemData.RoomData>",
+     "isStatic": false
+    }
+   },
+   "statics": {
+    "Instance": {
+     "offset": 0,
+     "type": "ChooseHeroMgr",
+     "isStatic": true,
+     "runtimeAddr": "0x6de20c88c0"
+    }
+   },
+   "staticFieldsData": "0x6de20c88c0",
+   "klassHandle": "0xb400006d2f928328",
+   "klassStaticOff": "0x4c000000b27a0598"
+  },
+  "SystemData.RoomData": {
+   "fields": {
+    "lUid": {
+     "offset": 32,
+     "type": "System.UInt64",
+     "isStatic": false
+    },
+    "iCamp": {
+     "offset": 48,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "iPos": {
+     "offset": 52,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "_sName": {
+     "offset": 64,
+     "type": "System.String",
+     "isStatic": false
+    },
+    "bRobot": {
+     "offset": 72,
+     "type": "System.Boolean",
+     "isStatic": false
+    },
+    "heroid": {
+     "offset": 76,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "heroskin": {
+     "offset": 80,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "headID": {
+     "offset": 84,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "uiSex": {
+     "offset": 88,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "country": {
+     "offset": 92,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "banHero": {
+     "offset": 176,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "uiRankLevel": {
+     "offset": 288,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "iRoad": {
+     "offset": 312,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "uiHeroIDChoose": {
+     "offset": 512,
+     "type": "System.UInt32",
+     "isStatic": false
+    },
+    "vWantSelectHero": {
+     "offset": 552,
+     "type": "System.Collections.Generic.List<System.UInt32>",
+     "isStatic": false
+    }
+   },
+   "statics": {},
+   "staticFieldsData": "0x0",
+   "klassHandle": "0xb400006dd107ff78",
+   "klassStaticOff": "0x4bffff922ef80088"
+  }
+ },
+ "containerError": "Il2CppError: couldn't find class Dictionary`2 in assembly mscorlib.dll",
+ "slots": {
+  "BattleManager": [
+   {
+    "rva": "0x635b290",
+    "addr": "0x6dde375290"
+   }
+  ],
+  "LogicBattleManager": [
+   {
+    "rva": "0x635b5d8",
+    "addr": "0x6dde3755d8"
+   }
+  ],
+  "BattleData": [
+   {
+    "rva": "0x635b370",
+    "addr": "0x6dde375370"
+   }
+  ],
+  "SmoothFollow": [
+   {
+    "rva": "0x6229bd0",
+    "addr": "0x6dde243bd0"
+   }
+  ],
+  "GameMethod": [
+   {
+    "rva": "0x635b620",
+    "addr": "0x6dde375620"
+   }
+  ],
+  "ChooseHeroMgr": [
+   {
+    "rva": "0x6359298",
+    "addr": "0x6dde373298"
+   }
+  ]
+ },
+ "slotScan": {
+  "module": "libcsharp.so",
+  "moduleSize": 104308736,
+  "ranges": [
+   {
+    "base": "0x6ddd983000",
+    "size": 10440704
+   },
+   {
+    "base": "0x6dde378000",
+    "size": 114688
+   },
+   {
+    "base": "0x6dd801a000",
+    "size": 33017856
+   },
+   {
+    "base": "0x6dd9f9a000",
+    "size": 58765312
+   },
+   {
+    "base": "0x6ddd7a8000",
+    "size": 1933312
+   }
+  ]
+ },
+ "build": {
+  "libcsharp.so": {
+   "size": 104308736,
+   "base": "0x6dd801a000",
+   "head": "7787ca28"
+  },
+  "liblogic.so": {
+   "size": 29904896,
+   "base": "0x6de20d1000",
+   "head": "a84ac368"
+  }
+ },
+ "timer": {
+  "klassSlot": "0x760B960",
+  "nowOffset": 316,
+  "cdA": 20,
+  "cdB": 28,
+  "fighterCache": 960
+ },
+ "minimap": {
+  "camp1AngleDeg": 134.76,
+  "camp2AngleDeg": 314.6,
+  "worldScale": 74.11
+ },
+ "cam": {}
+}
